@@ -1,0 +1,43 @@
+body,
+menu {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.video-frame {
+  width: 600px;
+  height: 300px;
+  margin-top: 2rem;
+  border: 2px solid black;
+}
+
+.barra {
+  width: 2px;
+  height: 50%;
+  border: 0.1px solid black;
+  margin-top: 10px;
+}
+
+.main-video {
+  display: flex;
+  flex-direction: column;
+}
+
+.suggestions {
+  display: flex;
+  flex-direction: column;
+}
+
+.suggestions-movies .video-frame {
+  width: 250px;
+  height: 150px;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+.suggestions-movies {
+  display: flex;
+  flex-direction: row;
+}
